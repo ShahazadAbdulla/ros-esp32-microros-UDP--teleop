@@ -1,0 +1,24 @@
+# ROS 2 / Colcon Files
+build/
+install/
+log/
+**/__pycache__/
+*.pyc
+*~
+
+# ESP-IDF / CMake Files
+esp32_firmware/string_teleop/build/
+esp32_firmware/string_teleop/sdkconfig
+esp32_firmware/string_teleop/sdkconfig.old
+esp32_firmware/string_teleop/bootloader/
+esp32_firmware/string_teleop/*.bin
+esp32_firmware/string_teleop/*.elf
+esp32_firmware/string_teleop/*.map
+**/CMakeCache.txt
+**/CMakeFiles/
+**/cmake_install.cmake
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
